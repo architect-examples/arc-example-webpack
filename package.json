@@ -1,0 +1,28 @@
+{
+  "name": "arc-example-webpack",
+  "version": "1.0.0",
+  "description": "Example arc app to show how to use webpack in your arc project.",
+  "main": "index.js",
+  "dependencies": {
+    "@architect/architect": "^4.3.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "npm run build && npx sandbox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arc-repos/arc-example-webpack.git"
+  },
+  "keywords": [],
+  "author": "@dam",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/arc-repos/arc-example-webpack/issues"
+  },
+  "homepage": "https://github.com/arc-repos/arc-example-webpack#readme"
+}
