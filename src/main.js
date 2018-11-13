@@ -1,6 +1,8 @@
+const _ = require('lodash')
+
 function component () {
   var element = document.createElement('p')
-  element.innerHTML = 'Hello Webpack'
+  element.innerHTML = _.join(['Hello', 'from', 'Webpack'], ' ')
   return element
 }
 
